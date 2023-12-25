@@ -23,15 +23,6 @@ class NoteBook{
         this._setTodosToLs();
     }
 
-    // private _initDelButton(): void {
-    //     const delButton = document.createElement('button');
-    //     delButton.innerText = 'Delete';
-    //     delButton.onclick = () => {
-    //         this._deleteTodoById(todo.id);
-    //     }
-    //
-    // }
-
  private _initMain(): void {
         this._initForm();
         this._initTodos();
