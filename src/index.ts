@@ -1,5 +1,4 @@
 console.log('Hello people');
-
 // class User {
     // private name: string;
     // public age: number;

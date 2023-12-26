@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            border: 2px blue solid;
+        }
+        .wrapper {
+            width: 400px;
+            padding: 10px;
+        }
+        .item {
+            margin-top: 10px;
+            border: 2px red solid;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+<form class="form wrapper" name="f1">
+    <label class="flex">Name:<input type="text" placeholder="username" name="username"></label>
+    <label class="flex">SurName:<input type="text" placeholder="user surname" name="surname"></label>
+    <label class="flex">Age:<input type="number" placeholder="user age" name="age"></label>
+    <button id="send">send</button>
+</form>
+<h1>Resolve 10 JS (task-1)</h1>
+<script src="index.js"></script>
+</body>
+</html>
